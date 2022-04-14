@@ -81,7 +81,7 @@ main {
   cursor: pointer !important;
 }
 .about-us {
-  margin-top: 5rem;
+  margin-top: 5.5rem;
   margin-left: 22px;
   margin-right: 22px;
   line-height: 1.5;
@@ -115,6 +115,7 @@ main {
 .investep-capital-promo {
   padding: 0px;
   margin: 0px;
+  padding-bottom: 2rem;
 }
 .investep-capital-card,
 .img-fluid {
@@ -146,4 +147,5 @@ main {
 .portfolio__img {
   width: 100px;
   max-height: 80px;
+  margin-bottom: 1rem;
 }
