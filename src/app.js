@@ -1,4 +1,4 @@
-var y = 0;
+let y = 0;
 window.addEventListener('scroll', () => {
   y = window.scrollY;
   console.log(y);
@@ -20,4 +20,18 @@ window.addEventListener('scroll', () => {
   if (y >= 900) {
     document.querySelector('#slogan-6').classList.add('animate__fadeInRight');
   }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const splide = new Splide('.splide', {
+    type: 'loop',
+    drag: 'free',
+    focus: 'center',
+    perPage: window.innerWidth < 600 ? 4 : 10,
+    autoScroll: {
+      speed: 1,
+    },
+  });
+
+  splide.mount(window.splide.Extensions);
 });

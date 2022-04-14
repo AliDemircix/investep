@@ -139,3 +139,11 @@ main {
 .animate__bounceInRight {
   visibility: visible;
 }
+.slider-container {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+.portfolio__img {
+  width: 100px;
+  max-height: 80px;
+}
