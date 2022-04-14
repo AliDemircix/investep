@@ -1,6 +1,6 @@
 let y = 0;
 window.addEventListener('scroll', () => {
-  y = window.scrollY;
+  y = window.pageYOffset;
   console.log(y);
   if (y >= (window.innerWidth < 600 ? 900 : 650)) {
     document.querySelector('#slogan-1').classList.add('animate__fadeInRight');
@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
     autoScroll: {
       speed: 1,
     },
+    pagination: false,
+    arrows: false,
   });
 
   splide.mount(window.splide.Extensions);
