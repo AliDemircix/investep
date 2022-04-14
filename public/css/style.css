@@ -1,0 +1,141 @@
+:root {
+  --primary: #326355;
+  --secondary: #7dd1b9;
+  --herobg: #d6fff38d;
+}
+body {
+  background-color: #f9fcfc;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  background-image: url(../img/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* body:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+main {
+  text-align: center;
+}
+#logo {
+  width: 150px;
+}
+.top-hero {
+  margin-top: 15rem;
+  margin-bottom: 8rem;
+}
+.top-hero p {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  line-height: 0.7;
+}
+
+#we-invest {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 0px;
+}
+#hero-text p {
+  line-height: 1;
+  font-size: 1em;
+  padding: 0px;
+  margin: 6px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.top-hero2 {
+  margin-top: 5rem;
+  font-size: 14px;
+}
+.top-hero2 p {
+  line-height: 1.8;
+  font-weight: 600;
+  padding: 1rem;
+  color: var(--primary);
+}
+.btn {
+  padding: 10px;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 30px;
+  width: 170px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.btn-joinus:hover {
+  background-color: var(--secondary);
+}
+.btn-joinus {
+  margin: 0.3rem;
+  cursor: pointer !important;
+}
+.about-us {
+  margin-top: 5rem;
+  margin-left: 22px;
+  margin-right: 22px;
+  line-height: 1.5;
+}
+.about-us p {
+  line-height: 2;
+}
+.icon-color {
+  color: var(--secondary);
+}
+.service-title {
+  margin-top: 5rem;
+  margin-bottom: 3srem;
+  text-decoration: underline;
+}
+.service-title,
+.investep-nft-title {
+  font-size: 24px;
+  font-weight: bolder;
+}
+#servives-title {
+  text-transform: uppercase;
+  margin-top: 5rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+.investep-capital-nft {
+  background-color: var(--primary);
+  color: white;
+}
+.investep-capital-promo {
+  padding: 0px;
+  margin: 0px;
+}
+.investep-capital-card,
+.img-fluid {
+  border-radius: 10px;
+}
+.investep-capital-card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.animate__animated {
+  visibility: hidden;
+  animation-duration: 1s;
+}
+.nft-buy {
+  font-size: 14px;
+}
+.animate__fadeInRight,
+.animate__fadeInLeft,
+.animate__bounceInDown,
+.animate__bounceInLeft,
+.animate__bounceInRight {
+  visibility: visible;
+}
