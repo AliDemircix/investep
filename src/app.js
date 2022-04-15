@@ -1,25 +1,28 @@
 let y = 0;
 var ratio = window.devicePixelRatio || 1;
-document.addEventListener('scroll', () => {
+window.addEventListener('scroll', () => {
   y = window.scrollY || window.pageYOffset;
   console.log(y);
   console.log(screen.width * ratio);
-  if (y >= 710) {
+  const sl1 = document.querySelector('#slogan-1').getBoundingClientRect();
+  console.log(sl1.y);
+  if (y >= 0) {
+    console.log(+'xxx');
     document.querySelector('#slogan-1').classList.add('animate__fadeInRight');
   }
-  if (y >= 850) {
+  if (y >= 0) {
     document.querySelector('#slogan-2').classList.add('animate__fadeInLeft');
   }
-  if (y >= 950) {
+  if (y >= 0) {
     document.querySelector('#slogan-3').classList.add('animate__fadeInRight');
   }
-  if (y >= 1100) {
+  if (y >= 0) {
     document.querySelector('#slogan-4').classList.add('animate__fadeInRight');
   }
-  if (y >= 1250) {
+  if (y >= 0) {
     document.querySelector('#slogan-5').classList.add('animate__fadeInLeft');
   }
-  if (y >= 1350) {
+  if (y >= 0) {
     document.querySelector('#slogan-6').classList.add('animate__fadeInRight');
   }
 });
