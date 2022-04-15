@@ -1,6 +1,6 @@
 let y = 0;
 var ratio = window.devicePixelRatio || 1;
-window.addEventListener('scroll', () => {
+document.addEventListener('scroll', () => {
   y = window.scrollY || window.pageYOffset;
   console.log(y);
   console.log(screen.width * ratio);
