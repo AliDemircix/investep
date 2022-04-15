@@ -4,22 +4,22 @@ window.addEventListener('scroll', () => {
   y = window.pageYOffset;
   console.log(y);
   console.log(screen.width * ratio);
-  if (y >= 900) {
+  if (y >= 600) {
     document.querySelector('#slogan-1').classList.add('animate__fadeInRight');
   }
-  if (y >= 1050) {
+  if (y >= 750) {
     document.querySelector('#slogan-2').classList.add('animate__fadeInLeft');
   }
-  if (y >= 1300) {
+  if (y >= 850) {
     document.querySelector('#slogan-3').classList.add('animate__fadeInRight');
   }
-  if (y >= 1750) {
+  if (y >= 950) {
     document.querySelector('#slogan-4').classList.add('animate__fadeInRight');
   }
-  if (y >= 1950) {
+  if (y >= 1050) {
     document.querySelector('#slogan-5').classList.add('animate__fadeInLeft');
   }
-  if (y >= 2250) {
+  if (y >= 1150) {
     document.querySelector('#slogan-6').classList.add('animate__fadeInRight');
   }
 });
