@@ -1,6 +1,6 @@
 let y = 0;
 var ratio = window.devicePixelRatio || 1;
-window.addEventListener('scroll', () => {
+const position = () => {
   y = window.scrollY || window.pageYOffset;
   console.log(y);
   console.log(screen.width * ratio);
@@ -25,7 +25,9 @@ window.addEventListener('scroll', () => {
   if (y >= 0) {
     document.querySelector('#slogan-6').classList.add('animate__fadeInRight');
   }
-});
+};
+document.body.addEventListener('touchmove', position);
+window.addEventListener('scroll', position);
 
 document.addEventListener('DOMContentLoaded', function () {
   const splide = new Splide('.splide', {
