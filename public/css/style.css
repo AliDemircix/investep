@@ -24,6 +24,7 @@ body {
 
 main {
   text-align: center;
+  overflow: hidden;
 }
 #logo {
   width: 150px;
