@@ -15,11 +15,12 @@ const position = () => {
       i % 2 === 0
         ? reveals[i].classList.add('animate__fadeInRight')
         : reveals[i].classList.add('animate__fadeInLeft');
-    } else {
-      i % 2 === 0
-        ? reveals[i].classList.remove('animate__fadeInRight')
-        : reveals[i].classList.remove('animate__fadeInLeft');
     }
+    // else {
+    //   i % 2 === 0
+    //     ? reveals[i].classList.remove('animate__fadeInRight')
+    //     : reveals[i].classList.remove('animate__fadeInLeft');
+    // }
   }
 };
 document.body.addEventListener('touchmove', position);
