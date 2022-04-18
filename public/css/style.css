@@ -83,7 +83,7 @@ main {
   text-decoration: none;
 }
 .about-us {
-  margin-top: 5.5rem;
+  margin-top: 6rem;
   margin-left: 22px;
   margin-right: 22px;
   line-height: 1.5;
@@ -157,4 +157,14 @@ main {
   width: 100px;
   max-height: 80px;
   margin-bottom: 1rem;
+}
+footer h5 {
+  font-size: 14px;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+footer a:hover {
+  color: rgb(255, 255, 255);
 }
