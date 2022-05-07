@@ -37,6 +37,12 @@ main {
 #logo {
   width: 150px;
 }
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
 .top-hero {
   margin-top: 14rem;
   margin-bottom: 9rem;
