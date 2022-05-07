@@ -18,7 +18,7 @@
   src: url(./Canto-Roman/Gilroy-Regular.ttf);
 }
 body {
-  background-color: #f9fcfc;
+  background-color: #fff;
   /* font-family: 'Inter', sans-serif; */
   font-family: gilroyregular;
   position: relative;
@@ -344,5 +344,10 @@ footer a:hover {
   .about-us-firt {
     background-image: none;
     color: black;
+  }
+  #accordion {
+    padding: 1rem 0px;
+    background-image: url(../img/services-bg.png);
+    background-position: left;
   }
 }
