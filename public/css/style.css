@@ -126,10 +126,10 @@ main {
 }
 .about-us-second {
   margin-top: -50px;
-  background-image: url(../img/new-bg.jpeg);
+  /* background-image: url(../img/new-bg.jpeg);
   background-position: left;
   background-repeat: repeat-y;
-  background-size: cover;
+  background-size: cover; */
   padding: 1rem;
 }
 
@@ -156,6 +156,7 @@ main {
   border: none;
   background-color: var(--services-bg);
   border-radius: 5px;
+  cursor: pointer;
 }
 .services-title {
   font-weight: bold;
@@ -367,5 +368,27 @@ footer a:hover {
   #accordion,
   .slider-wrapper {
     background: none;
+  }
+  footer {
+    background-color: var(--primary);
+    background-image: none;
+  }
+  .typing-text2 {
+    padding-right: 55px !important;
+  }
+}
+/* IPAD*/
+@media (min-width: 755px) and (max-width: 1024px) {
+  .about-us-firt {
+    background-image: none;
+    background-color: var(--primary);
+  }
+  footer {
+    background-color: var(--primary);
+    background-image: none;
+  }
+  #accordion,
+  .slider-wrapper {
+    background-image: none;
   }
 }
