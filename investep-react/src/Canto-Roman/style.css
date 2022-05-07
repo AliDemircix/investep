@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Canto';
+    src: local('Canto Roman'), local('Canto-Roman'),
+        url('Canto-Roman.woff2') format('woff2'),
+        url('Canto-Roman.woff') format('woff'),
+        url('Canto-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
