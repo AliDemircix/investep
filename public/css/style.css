@@ -228,11 +228,7 @@ main {
 .nft-buy {
   font-size: 14px;
 }
-/* .partner-container {
-  background-image: url(../img/white.png);
-  background-size: contain, cover;
-  background-repeat: no-repeat;
-} */
+
 .partner-title {
   text-align: center;
   font-family: gilroybold;
@@ -319,7 +315,8 @@ footer a:hover {
   position: relative;
 }
 .typing-text2 {
-  background: linear-gradient(180deg, #000, #000, #000);
+  background: linear-gradient(270deg, #000, #000, #000);
+  padding-right: 2rem !important;
   letter-spacing: 3px;
   -webkit-background-clip: text;
   background-clip: text;
@@ -350,5 +347,25 @@ footer a:hover {
   .about-us-firt {
     background-image: none;
     color: black;
+  }
+  .text-center h1 {
+    font-size: 60px;
+  }
+  #we-invest {
+    font-size: 45px;
+    margin-left: 55px;
+  }
+  #hero-text {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  #promo-title,
+  .partner-title,
+  .service-title {
+    font-size: 30px;
+  }
+  #accordion,
+  .slider-wrapper {
+    background: none;
   }
 }
